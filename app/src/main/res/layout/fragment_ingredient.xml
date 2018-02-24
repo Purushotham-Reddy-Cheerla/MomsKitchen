@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_padding_small"
+    android:layout_marginTop="@dimen/margin_padding_small"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_padding_small"
+    android:paddingLeft="@dimen/margin_padding_large"
+    android:paddingRight="@dimen/margin_padding_large"
+    tools:context="com.poras.passionate.momskitchen.fragments.IngredientFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_padding_medium"
+        android:fontFamily="@font/merriweather_sans_bold"
+        android:gravity="center"
+        android:text="@string/recipe_ingredients"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/tv_recipe_ingredient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_selector"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:focusedByDefault="true"
+        android:fontFamily="@font/merriweather_sans"
+        android:gravity="center"
+        android:minHeight="?listPreferredItemHeightSmall"
+        android:text="@string/ingredient_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+</LinearLayout>

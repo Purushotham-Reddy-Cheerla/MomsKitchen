@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Mom\'s Kitchen</string>
+
+    <string name="ingredient_title">Ingredients</string>
+    <string name="recipe">Recipe</string>
+    <string name="recipe_ingredients">Recipe Ingredients</string>
+    <string name="steps">Recipe Steps</string>
+    <string name="step_num"><b>Step:<xliff:g id="step">%1$d</xliff:g></b> - <xliff:g id="short_desc">%2$s</xliff:g></string>
+    <string name="measure_units"><xliff:g id="quantity">%1$.1f</xliff:g>  <xliff:g id="units">%2$s</xliff:g></string>
+    <string name="no_video">No video available for this step !!</string>
+    <string name="step_desc_title">Description</string>
+    <string name="previous_step">&#x2190;Previous Step</string>
+    <string name="next_step">Next Step&#x2192;</string>
+    <string name="quantity">Quantity:</string>
+    <string name="ingredients_title">Ingredients</string>
+    <string name="add_as_widget">Add as Widget</string>
+    <string name="play_previous">Play Previous</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+</resources>

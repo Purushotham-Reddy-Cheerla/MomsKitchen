@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.poras.passionate.momskitchen.fragments.StepsListFragment">
+
+    <TextView
+        android:id="@+id/recipe_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_padding_medium"
+        android:fontFamily="@font/merriweather_sans_bold"
+        android:gravity="center"
+        android:text="@string/steps"
+        android:textSize="@dimen/text_medium" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_recipe_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+</LinearLayout>

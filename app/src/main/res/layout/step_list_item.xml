@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_padding_small"
+    android:layout_marginLeft="@dimen/margin_padding_large"
+    android:layout_marginRight="@dimen/margin_padding_large"
+    android:layout_marginTop="@dimen/margin_padding_small"
+    android:background="@drawable/list_item_selector"
+    android:minHeight="?android:listPreferredItemHeightSmall"
+    android:orientation="horizontal"
+    android:padding="@dimen/margin_padding_medium">
+
+    <TextView
+        android:id="@+id/step_short_dsc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="5"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:fontFamily="@font/merriweather_sans_light"
+        android:gravity="start"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="16sp" />
+</LinearLayout>
